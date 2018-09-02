@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="quiz">
+    <div class="interface">
+        <header class="cabecalho">
+            <h1 class="titulo">Web Quiz</h1>
+            <p class="descricao">Teste seus conhecimentos web!</p>
+        </header>
+        <div class="quiz">
+            <ol type="1" class="perguntas">
+                <li class="pergunta">O que significa a sigla HTML?</li>
+                <form class="p1">
+                    <div class ="alternativa">
+                        <input type="radio" name="p1" id="r1a" value="a"/>
+                        <label for="r1a">Hyperlinks and Text Markup Language</label>
+                    </div>
+                    <div class ="alternativa">
+                        <input type="radio" name="p1" id="r1b" value="b"/>
+                        <label for="r1b">Hyper Text Markup Language</label>
+                    </div>    
+                    <div class ="alternativa">
+                        <input type="radio" name="p1" id="r1c" value="c"/>
+                        <label for="r1c">Home Tool Markup Language</label>
+                    </div>    
+                </form>
+                <li class="pergunta">O que significa a sigla CSS?</li>
+                <form class="p2">
+                    <div class ="alternativa">
+                        <input type="radio" name="p2" id="r2a" value="a"/>
+                        <label for="r2a">Creative Style Sheets</label>
+                    </div>    
+                    <div class ="alternativa">    
+                        <input type="radio" name="p2" id="r2b" value="b"/>
+                        <label for="r2b">Cascading Style Sheets</label>
+                    </div>    
+                    <div class ="alternativa">    
+                        <input type="radio" name="p2" id="r2c" value="c"/>
+                        <label for="r2c">Colorful Style Sheets</label>
+                    </div>    
+                </form>        
+                <li class="pergunta">Dentro de qual elemento HTML nós colocamos o JavaScript?</li>
+                <form class="p3">
+                    <div class ="alternativa"> 
+                        <input type="radio" name="p3" id="r3a" value="a"/>
+                        <label for="r3a">script</label>
+                    </div>    
+                    <div class ="alternativa">     
+                        <input type="radio" name="p3" id="r3b" value="b"/>
+                        <label for="r3b">js</label>
+                    </div>    
+                    <div class ="alternativa">                        
+                        <input type="radio" name="p3" id="r3c" value="c"/>
+                        <label for="r3c">javascript</label>
+                    </div>    
+                </form>    
+            </ol>
+            <button class="botao">Pronto!</button>
+            <p class="result"></p>
+        </div>
+
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
